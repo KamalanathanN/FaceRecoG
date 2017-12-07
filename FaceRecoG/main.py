@@ -22,7 +22,7 @@ while (True):
             id="sam" #Enter name of id 2
         else:
             id="new person"
-        cv2.putText(im,str(id),(x,y+h), font, 4,(255,255,255),2,cv2.LINE_AA)
+        cv2.putText(im,str(id),(x,y+h+50), font,1,(1,255,1),2)
     cv2.imshow('im',im) 
     if (cv2.waitKey(1)==ord('q')):
         break;
