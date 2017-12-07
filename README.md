@@ -1,2 +1,8 @@
 # FaceRecoG
-simple python program for face detection and labeling
+Simple python program for face detection using openCV version 3.3.0 and python 2.7
+
+# Requirements
+OpenCV 3.3.0 & Python 2.7 with numpy and pillow library installed.
+
+
+
