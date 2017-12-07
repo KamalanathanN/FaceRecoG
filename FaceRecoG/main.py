@@ -17,9 +17,9 @@ while (True):
         cv2.rectangle(im,(x,y),(x+w,y+h),(225,0,0),2)
         id,conf = recognizer.predict(gray[y:y+h,x:x+w])
         if(id==1):
-            id="kamal"
+            id="jon snow" #Enter name of id 1
         elif(id==2):
-            id="appu"
+            id="sam" #Enter name of id 2
         else:
             id="new person"
         cv2.putText(im,str(id),(x,y+h), font, 4,(255,255,255),2,cv2.LINE_AA)
